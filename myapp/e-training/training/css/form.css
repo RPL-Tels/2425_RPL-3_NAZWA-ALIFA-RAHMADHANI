@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Bagian form request training */
+.form-request {
+    margin: 0; /* Agar memiliki jarak atas dan bawah seperti .container-fluid */
+    padding:0  ;
+    max-width: 96%; /* Menyesuaikan dengan lebar .container-fluid */
+    background-color: #e9f7fe; /* Warna background yang berbeda */
+    border: 2px solid #007bff; /* Border dengan warna biru */
+    border-radius: 8px; /* Sama dengan .container-fluid */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sama dengan .container-fluid */
+}
+
+.form-request1 {
+    margin: 0; /* Agar memiliki jarak atas dan bawah seperti .container-fluid */
+    padding:0  ;
+    max-width: 96%; /* Menyesuaikan dengan lebar .container-fluid */
+    background-color: #e8eaeb; /* Warna background yang berbeda */
+    border: 2px solid #848484; /* Border dengan warna biru */
+    border-radius: 8px; /* Sama dengan .container-fluid */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sama dengan .container-fluid */
+}
+
+
+.container-fluid {
+    max-width: 96%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-form {
+    width: 100%;
+}
+
+.table-form td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.input-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-send {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: #0056b3;
+}
